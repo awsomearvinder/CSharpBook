@@ -34,6 +34,7 @@ If all works well, you will see a 10 on screen. If you press enter the window wi
 | + | Adds | 
 | - | Subtracts |
 | % | Divides and gets remainder |
+
 Another important operation includes checking for equality, which output's True or False. 
 
 For example, you can replace the 5+5 above with 5==5, what does it output? You can also check for inequality using != with for example with 5!=5
