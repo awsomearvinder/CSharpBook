@@ -28,6 +28,7 @@ If all works well, you will see a 10 on screen. If you press enter the window wi
 
 
 | Operator | Meaning | 
+|----------|---------|
 | * | Multiplies|
 | / | Divides | 
 | + | Adds | 
