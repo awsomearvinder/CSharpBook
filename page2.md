@@ -11,16 +11,12 @@ You can ignore the namespace and class lines for now.
 
 In order to show the value of an Expression, you can do something called printing a value. This will showcase the value of an expression on screen. In the area shown above, Write ``System.Console.WriteLine(5+5);``. If you run it at this point, you'll likely see a black window quickly appear and dissapear. In order to fix this make another new line and write ``System.Console.ReadLine();``
 
-Your code should now look like this:
+Your code should now look something like this:
 
 ```CSharp
-namespace YourProjectNameHere{
-    Class Program{
-        static void Main(string[] args){
-            System.Console.WriteLine(5+5);
-            System.Console.ReadLine();
-        }
-    }
+static void Main(string[] args){
+    System.Console.WriteLine(5+5);
+    System.Console.ReadLine();
 }
 ```
 
@@ -43,8 +39,8 @@ Some other operations include checking if a item is larger, for example 5 > 4, o
 
 Exercises: 
 
-Another set of operators are the >= and <= operators. Can you figure out what these do?
+1. Another set of operators are the >= and <= operators. Can you figure out what these do?
 
-Without running it, try to figure out the output of (5 > 4) == (4 > 5) hint: you can compare equality on True and False as well, for example True == True would output True.
+2. Without running it, try to figure out the output of (5 > 4) == (4 > 5) hint: you can compare equality on True and False as well, for example True == True would output True.
 
-Check if C# preserves the order of operations in math
+3. Check if C# preserves the order of operations in math
