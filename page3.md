@@ -6,6 +6,15 @@ A series of charecters are called strings, including everything in this blog pos
 
 Using this you can print whatever you want, numbers, letters, or even emojis. The only mathematical operators that apply to strings are ``==`` as well as the ``+``. The equality check work's as normal, comparing if two string's have the same charecters, but the + combines two strings. For example, ``System.Console.WriteLine("Hi " +  "John");`` would print "Hi John" on screen. 
 
+A Table for reference with all the major data types you'll encounter day to day:
+| Type | What it stores|
+|------|---------------|
+| int | whole numbers |
+| float | Decimal numbers |
+| bool | True or False |
+| string | string of charecters |
+Note: there is also a char type, which is a single charecter, as well as variants of these types with slightly different charecteristics, however these 4 are the one's we'll be using for now. 
+
 Types are important because they're required to understand how to store and work with data. This data is normally stored in something called a variable. A variable can have it's content's modified through the duration of the program, which makes them extremely valuable when you need to use the same piece of data, or change a piece of data throughout the program's lifetime. For example, you could do a program like this:
 
 ```CSharp 
