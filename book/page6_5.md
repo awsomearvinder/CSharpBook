@@ -1,11 +1,11 @@
 # Loops (cont.)
-You've seen while loops now, however you might remember on the last page that I mentioned another kind of loop. A *for* loop. A for loop is a loop that is specifically designed with the common usecase of making a variable, checking if the variable meets some condition, and what to do to the variable every itteration. Another, alternatively nicer method of doing the FizzBuzz challence we did on the last page can be done with a for loop as well, like so.
+You've seen while loops now, however you might remember on the last page that I mentioned another kind of loop. A *for* loop. A for loop is a loop that is specifically designed with the common usecase of making a variable, checking if the variable meets some condition, and what to do to the variable after every itteration. Another, alternatively nicer method of doing the FizzBuzz challence we did on the last page can be done with a for loop as well, like so.
 
 ```CSharp
 //int i = 0; runs the first time the loop is made.
 //i<=100 is the check that runs every itteration. (like the in while)
-//i++ is a shorthand for i+=1, and it just adds 1 to i.
-for(int i = 0; i <=100; i++) { //typically, for simple loops like this we just use "i".
+//i+=1 runs after every itteration.
+for(int i = 0; i <=100; i+=1) { //typically, for simple loops like this we just use "i".
     if (i % 3 == 0 && i % 5 == 0) {
         Console.WriteLine("FizzBuzz");
     } else if (i % 5 == 0) {
