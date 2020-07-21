@@ -6,8 +6,8 @@ This book will contain information up until classes and inheritence. In the futu
 
 When you make a new project, the default file should look something like 
 ```CSharp
-namespace (ProjectName){
-    class Program{
+namespace ProjectName {
+    class Program {
         static void Main(string[] args){
 
         }
