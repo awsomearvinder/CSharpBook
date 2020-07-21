@@ -15,7 +15,7 @@ Your code should now look something like this:
 
 ```CSharp
 static void Main(string[] args){
-    System.Console.WriteLine(5+5);
+    System.Console.WriteLine(5 + 5);
     System.Console.ReadLine();
 }
 ```
