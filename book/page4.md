@@ -9,7 +9,7 @@ A simple program to showcase this would be:
 static void Main(string[] args){
     System.Console.WriteLine("What's your name?");
     string name = System.Console.ReadLine();
-    System.Console.WriteLine("Hi "+name);
+    System.Console.WriteLine("Hi " + name);
     System.Console.ReadLine(); // without this the program closes automatically again.
 }
 ```
