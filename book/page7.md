@@ -1,7 +1,7 @@
 # Functions
 At this point, you can call functions and you can play around with loops, ifs, and perform basic operations. However, a lot of times you'll want to be able to make your own functions. When you have an extremely large (thousands of lines) codebase, reusing code where you can is *extremely* important. For this, we can make our own functions that we can call in our program. This means this code would only be defined in one place and we can call it from other locations. 
 
-Functions usually take an input (Console.WriteLine() takes in a value of any type for example) and then return an output (Console.ReadLine() returns a string typed by the user.).
+Functions usually take an input (Console.WriteLine() takes in a value of any type for example) and then return an output (Console.ReadLine() returns a string typed by the user).
 
 We can make our own functions similar to that, via "declaring" a function. The syntax to declare a function is
 ```CSharp
