@@ -23,7 +23,7 @@ Put this function declaration outside of ``static void Main(string[] args){}``, 
 ```CSharp
 class Program{
     static void Main(string[] args){
-        print("hi");
+        print("test");
         Console.ReadLine();
     }
     static void print(string val){
