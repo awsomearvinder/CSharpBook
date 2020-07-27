@@ -32,7 +32,7 @@ class Program{
 }
 ```
 
-Chances are your extremely confused by all this right now, but try making your own functions.
+Chances are you're extremely confused by all this right now, but try making your own functions.
 
 For example, a function that takes a number, and checks if it's even could be written like this:
 
