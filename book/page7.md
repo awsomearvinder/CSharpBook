@@ -18,12 +18,12 @@ static void print(string val){ //function that takes in a string named value.
     Console.WriteLine(val);
 }
 ```
-Put this outside of ``static void Main(string[] args)``, and inside of Main, do ``print("test");`` This should print test into a cmd. Your final code would look something like this:
+Put this function declaration outside of ``static void Main(string[] args){}``, and inside of Main call ``print("test");`` This should print test into a cmd. Your final code would look something like this:
 
 ```CSharp
 class Program{
     static void Main(string[] args){
-        test("hi");
+        print("hi");
         Console.ReadLine();
     }
     static void print(string val){
