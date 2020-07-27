@@ -1,5 +1,5 @@
 # Functions
-At this point, you can call functions and you can play around with loops, ifs, and perform basic operations. However, a lot of times you'll want to be able to make your own functions. When you have an extremely large (thousands of lines) codebase, reusing code where you can is *extremely* important. For this, we can make our own functions that we can call in our program. This means this code would only defined in one place and we can call it from other locations. 
+At this point, you can call functions and you can play around with loops, ifs, and perform basic operations. However, a lot of times you'll want to be able to make your own functions. When you have an extremely large (thousands of lines) codebase, reusing code where you can is *extremely* important. For this, we can make our own functions that we can call in our program. This means this code would only be defined in one place and we can call it from other locations. 
 
 Functions usually take an input (Console.WriteLine() takes in a value of any type for example) and then return an output (Console.ReadLine() returns a string typed by the user.).
 
@@ -10,7 +10,7 @@ static output_type name_of_function(input_type input_name) {
     return output; //anything following a return is the output of the function.
 }
 ```
-If that looks confusing, here's an example of us making our own "print" function that print's a value on screen via Console.WriteLine()
+If that looks confusing, here's an example of us making our own "print" function that prints a value on screen via Console.WriteLine()
 
 ```CSharp
 static void print(string val){ //function that takes in a string named value. 
