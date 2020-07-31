@@ -22,7 +22,7 @@ We touched on it lightly in the last page, but there's a special set of operatio
 
 The Not, Or, and And operators (!, \|\|, &&) only apply to values of True or False.
 
-Not inverts it (!True is False, and !False is True), Or outputs True if one of the sides is true, (True || False is True), and and outputs true if both sides are true (True && True is True, every other combination is false). 
+Not inverts the value (!True is False, and !False is True), Or outputs True if one of the sides is true, (True || False is True), and and outputs true if both sides are true (True && True is True, every other combination is false). 
 
 Exercises:
 1. what is !True == False?
