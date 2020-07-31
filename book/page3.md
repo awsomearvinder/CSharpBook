@@ -33,7 +33,7 @@ Exercises:
 1. Try making a variable with the type int that stores 3/2, does the program error? If it dosen't, what's the value of 3/2 since ints can only hold whole types? 
 2. Make two int variables that hold a 15 and a 4 respectively. print the result of (variable1 % variable2). What value is printed, and is it the value you were expecting?
 3. Make a variable called name that stores your name. Print ("Hi " + name) on screen.
-4. If you print a string with "\n" in it, the character does something special. Can you figure out what "\n" does? 
+4. If you print a string that contains ``"\n"`` somewhere in it, the ``"\n"`` does something special. Can you figure out what ``"\n"`` does? 
 
 As a side note, in the example above we do ``a = a + 2``, which seems kind of counterintuitive (we take a, add 2, then store it in a again?), another shorthand for this which may seem easier in the future is ``+=``, which adds to itself.
 ``a = a + 2`` could be rewritten as ``a += 2;``. This also applies for other operations, such as ``a-=2;`` or ``a*=2;``. 
