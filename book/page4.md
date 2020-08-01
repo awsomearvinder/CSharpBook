@@ -16,6 +16,6 @@ static void Main(string[] args){
 
 Exercises
 
-1. Another function is ``System.Int32.Parse(string)`` which takes a string as it's input (in the parenthesis) and converts that string into a int. Using this and ``System.Console.ReadLine()`` can you make a program that asks the users for two numbers, and then adds them?
+1. Another function is ``System.Int32.Parse(string)`` which takes a string as it's input (in the parenthesis) and converts that string into a int. Using this and ``System.Console.ReadLine()`` (which returns a string) can you make a program that asks the users for two numbers, and then adds them?
 2. What happens if you don't give the program from exercise 1 a number?
 3. Play around a bit, get comfortable calling functions and working with the data they output. Check if numbers are equal, print them out, take user input and check if it's equal to something. After this point were going to start introducing more functions and making real programs. 
